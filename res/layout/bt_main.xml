@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tools" >
+
+  
+    <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+        <TextView 
+            android:id="@+id/bt_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="## 蓝牙连接状态  ##"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/background_dark"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蓝牙传回的数据:"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            />
+        <TextView
+            android:id="@+id/bt_back_data" 
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bt_exit"
+            android:layout_marginLeft="15dp"
+            android:padding="5dp"
+            android:layout_marginRight="15dp"
+            />
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            >
+            <Button 
+                android:id="@+id/bt_connect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="连接蓝牙"
+                android:layout_weight="1"
+                />
+             <Button 
+                android:id="@+id/bt_break"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="断开连接"
+                />
+        </LinearLayout>
+        
+        
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="蓝牙发送数据:"
+             android:textSize="15dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="15dp"
+             />
+         <EditText
+            android:id="@+id/bt_send_data" 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@drawable/bt_exit"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+         <Button 
+             android:id="@+id/bt_send"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+             android:text="发送"
+             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+             />
+        
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="语音输入:"
+             android:textSize="15dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="15dp"
+             />
+         <TextView
+            android:id="@+id/voice_send_data" 
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+             android:padding="10dp"
+            android:background="@drawable/bt_exit"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+         <Button 
+             android:id="@+id/voice_send"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+             android:text="voice发送"
+             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+             />
+        
+         <Button 
+             android:id="@+id/kong"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+              android:layout_marginTop="50dp"
+             android:text=""
+             android:background="@null"
+             android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+             />
+        
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+
+</ScrollView>
