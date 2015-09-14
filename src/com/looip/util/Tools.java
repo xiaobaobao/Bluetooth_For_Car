@@ -26,12 +26,18 @@ public class Tools {
 		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
 	}
 	
-
+	public static void showToast2(Context context,String info){
+		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
+	}
+	public static void showToast3(Context context,String info){
+		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
+	}
+	public static void showToast4(Context context,String info){
+		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
+	}
+	public static void showToast5(Context context,String info){
+		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
+	}
 	
-	
-	
-	
-	
-
 
 }
