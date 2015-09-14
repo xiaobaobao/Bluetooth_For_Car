@@ -22,9 +22,7 @@ import android.widget.Toast;
 
 public class Tools {
 
-	public static void showToast(Context context,String info){
-		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
-	}
+
 	
 	public static void showToast2(Context context,String info){
 		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
