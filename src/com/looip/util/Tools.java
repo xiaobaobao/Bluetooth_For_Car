@@ -42,5 +42,14 @@ public class Tools {
 	public static void showToast35(Context context,String info){
 		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
 	}
+	
+	public static void showToast66(Context context,String info){
+	}
+	
+	public static void showToast3665(Context context,String info){
+	}
+	
+	public static void showToast36665(Context context,String info){
+	}
 
 }
