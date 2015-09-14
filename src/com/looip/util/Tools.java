@@ -38,6 +38,8 @@ public class Tools {
 	public static void showToast5(Context context,String info){
 		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
 	}
-	
+	public static void showToast35(Context context,String info){
+		Toast.makeText(context, info,Toast.LENGTH_SHORT).show();
+	}
 
 }
